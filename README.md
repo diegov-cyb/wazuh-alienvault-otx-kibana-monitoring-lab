@@ -1,5 +1,5 @@
 # wazuh-alienvault-otx-kibana-monitoring-lab
-Hans-on Wazuh SIEM lab with Windows &amp; Linux agents, AlienVault OTX threat intelligence, and Kibana dashboards for alerting, compliance, and vulnerability monitoring.
+Hands-on Wazuh SIEM lab with Windows &amp; Linux agents, AlienVault OTX threat intelligence, and Kibana dashboards for alerting, compliance, and vulnerability monitoring.
 
 ## Wazuh + Elastic Stack Security Monitoring
 Hands-on security monitoring lab using Wazuh, Elastic Stack, and multiple virtual machines to collect logs, detect threats, perform compliance check, and analyze alerts mapped to the MITRE ATT&CK framework.
@@ -82,7 +82,7 @@ The Windows 11 agent appears in the list with OS details, package versions, and 
 ![Agent Key Extraction & Inventory Verification](images/Wazuh6.PNG)
 
 ## **6. Vulnerability Dashboard Overview**
-This displays the vulnerability summary for the enrolled Windows 11 agent. It shows the total number of detected vulnerabilities categorized by critical, high, medium, low, and pending evaluation. The dashboard includes top vulnerabilities by severity, affected packages, and agent distribution. This confirms Wazuh's ability to identify OS-level weaknesses such as kernel, driver, and privelege-related CVEs.
+This displays the vulnerability summary for the enrolled Windows 11 agent. It shows the total number of detected vulnerabilities categorized by critical, high, medium, low, and pending evaluation. The dashboard includes top vulnerabilities by severity, affected packages, and agent distribution. This confirms Wazuh's ability to identify OS-level weaknesses such as kernel, driver, and privilege-related CVEs.
 ![Vulnerability Dashboard Overview](images/Wazuh7.PNG)
 
 ## **7. Wazuh Overview Panel**
@@ -114,7 +114,7 @@ Threat-hunting view showing total alert volume, MITRE ATT&CK detections, authent
 - VirtualBox Networking (Host-Only + NAT)
 
 ## Purpose 
-This lab project was created to gain hands-on experience with security monitoring, endpoint visibility, threat detection workflows, and SIEM-style data analysis using Wazuh and Elastic Slack.
+This lab project was created to gain hands-on experience with security monitoring, endpoint visibility, threat detection workflows, and SIEM-style data analysis using Wazuh and Elastic Stack.
 It replicates real security operations tasks including:
 - Agent deployment & enrollment
 - Log ingestion and analysis
